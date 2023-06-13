@@ -1,0 +1,7 @@
+**Explique como funcionam os métodos attach(), write() e read() da biblioteca servo.h**
+
+Na biblioteca <Servo.h> há funções específicas que facilitam a vida do programador em relação à servo motores.
+-attach(); A função attach serve para fazer indicação de qual pino o servo motor está ligado, recebe um parâmetro (o pino).
+Indica para o sistema para onde o arduino tem que enviar o sinal modulado e assim controlar o servo motor. 
+-write(); Essa função serve para indicar/definir o ângulo de rotação do servo motor. Geralmente o ângulo varia entre 0 e 180 graus e essa função informa ao servo qual a posição ele deve assumir.
+-read(); Essa função serve para ler a posição atual do servo motor. 
